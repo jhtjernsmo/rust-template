@@ -9,6 +9,14 @@ A starting point for desktop apps in Rust. Clone it, rename it, and build whatev
 
 Built with [Tauri 2](https://v2.tauri.app), React and TypeScript. The look comes from [Fjord](https://github.com/jhtjernsmo/fjord).
 
+![A tour of the template: the wiki, a live Rust command and the window controls](docs/images/tour.gif)
+
+| The wiki is the first screen | Commands call Rust, live |
+| --- | --- |
+| ![Welcome page of the built-in wiki](docs/images/welcome.png) | ![The Commands page with a working greet example](docs/images/commands.png) |
+| **Fjord's window frame and colours** | **Installers for every platform** |
+| ![The interface page, with the close button highlighted in the custom title bar](docs/images/interface.png) | ![The installers and releases page](docs/images/release.png) |
+
 ## Get started
 
 You need [Rust](https://rustup.rs), [Node.js 22+](https://nodejs.org) and, on Linux, WebKitGTK:
