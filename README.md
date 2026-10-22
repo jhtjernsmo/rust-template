@@ -71,6 +71,16 @@ scripts/rename.mjs Rename the app in one go
 | UI in a browser, no Rust | `npm --prefix ui run dev` |
 | Release for all platforms | `git tag v0.1.0 && git push origin v0.1.0` |
 
+## Installing the release builds
+
+The installers on the [Releases](https://github.com/jhtjernsmo/rust-template/releases) page show what a build of the template looks like. They are not code-signed, so:
+
+- **macOS** may say the app is damaged or from an unidentified developer. Move it to Applications, then run `xattr -cr "/Applications/Rust Template.app"`.
+- **Windows** SmartScreen may say "Windows protected your PC". Choose More info, then Run anyway.
+- **Linux** needs nothing extra: install the `.deb` or `.rpm`, or make the `.AppImage` executable and run it.
+
+The wiki page "Installers and releases" explains how to sign your own app so these warnings go away.
+
 ## License
 
 Licensed under either of [Apache License, Version 2.0](LICENSE-APACHE) or [MIT license](LICENSE-MIT), at your option. Apps you build from this template can use any license you like.
