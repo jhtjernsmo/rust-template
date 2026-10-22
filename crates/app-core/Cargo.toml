@@ -1,0 +1,15 @@
+[package]
+name = "app-core"
+description = "The app's logic, kept free of Tauri so it can be tested and reused (CLI, server, ...)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"
